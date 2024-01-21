@@ -1,8 +1,44 @@
-# React + Vite
+# reduxToolkitTodoList
+![image](https://i.postimg.cc/KzFP9bmY/Screenshot-2024-01-21-183051.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Todo List application built with Vite, React, Tailwind CSS, and Redux Toolkit. The purpose of this project is to understand the setup and usage of Redux Toolkit, including the creation of a store, slices, and the use of `useSelector` and `useDispatch`.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Todo:** Add a new todo to the list.
+- **Remove Todo:** Remove a todo from the list.
+- **Update Todo:** Update the status or details of a todo.
+
+## Technologies Used
+
+- Vite
+- React
+- Tailwind CSS
+- Redux Toolkit
+
+## Learning Objectives
+
+In this project, I learned:
+
+- How to create a Redux store using Redux Toolkit.
+- Creating slices to manage different parts of the Redux state.
+- Using `useSelector` to access the state in React components.
+- Using `useDispatch` to dispatch actions in React components.
+- Writing reducers to handle state updates.
+
+## Installation
+
+To run the project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/sachinmaurya96/reduxToolkitTodoList.git
+
+# Navigate to the project directory
+cd reduxToolkitTodoList
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
